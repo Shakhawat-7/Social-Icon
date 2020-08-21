@@ -1,0 +1,78 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-bar{
+	text-align: center;
+	height: 60px;
+	background-color: #0A72EA;
+	line-height: 60px;
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+
+.menu-bar ul li a{
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	margin: 0px 10px;
+	transition: 0.75s;
+}
+
+.menu-bar ul li a:hover{
+	color: black;
+	font-size: 25px;
+	transition: 0.75s;
+}
+
+/*banner section css here*/
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h1{
+	font-size: 50px;
+	text-align: center;
+	color: #50473A;
+	padding-top: 220px;
+}
+
+.social-media{
+	text-align: center;
+	margin: 100px;
+
+}
+
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-media ul li a i{
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	background: #0A72EA;
+	border-radius: 50px;
+	line-height: 60px;
+	color: white;
+	margin: 0 10px;
+	transition: 0.75s;
+}
+
+.social-media ul li a i:hover{
+	background-color: black;
+	transition: 0.75s;
+	transform: scale(1.25);
+}
